@@ -7,13 +7,19 @@
 <title>Cadastro de Clientes</title>
 </head>
 <body>
-	<h1>Cadastro de Clientes</h1>
-	<hr>
+	<h1>Solicitação de Serviços</h1>
+	Tipo:<select>
+ 		<option value="">Cliente</option>
+  		<option value="">Produtos</option>
+  		<option value="">Atendente</option>
+  		<option value="">Supervisor</option>
+		</select>
+		<hr>
 	<form action="/Dynamic Web Project/Cadstro de Clientes" method="post">
 		Nome:<input type="text" id="nome" name="nome" value="">
 		Sobrenome:<input type="text" id="Sobrenome" name="name" value="">
-		Email:<input type="text" id="email" name="email" value="">
-		<input type="submit" value="Salvar">
+	 <p>Produto:<input type="text" id="produto" name="produto" value="">
+		<input type="submit" value="Registrar">
 	</form>
 	
 	
